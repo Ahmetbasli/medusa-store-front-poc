@@ -1,4 +1,3 @@
-import React, { Suspense, lazy } from "react"
 import { Locale } from "../../../i18n-config"
 import { getDictionary } from "../../get-dictionaries"
 import dynamic from "next/dynamic"
