@@ -19,7 +19,7 @@ export default function RootLayout({
   params: { lang: Locale }
 }) {
   return (
-    <html lang={params.lang} data-mode="light">
+    <html lang={params.lang}>
       <body>
         <main>{children}</main>
       </body>
